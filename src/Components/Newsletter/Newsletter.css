@@ -1,0 +1,61 @@
+/* Newsletter.css */
+
+.newsletter {
+   width: 65%;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0 140px;
+    margin-bottom: 150px;
+    gap: 30px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%); /* Light pink gradient */
+  }
+  
+  .newsletter h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .newsletter input {
+    flex: 1;
+    padding: 10px;
+    height: 40px;
+    border: 1px solid #c4b7b7;
+    border-radius: 30px;
+    margin-right: -120px;
+    margin-left: 100px;
+  }
+  
+  .newsletter button {
+    margin-right:100px;
+    width: 120px;
+    height: 60px;
+    padding: 10px 15px;
+    background-color: #151515; /* Darker pink color */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .newsletter button:hover {
+    background-color: #FF256E; /* Darker color on hover */
+  }
+  

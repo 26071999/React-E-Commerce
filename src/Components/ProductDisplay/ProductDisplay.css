@@ -1,0 +1,152 @@
+/* Product Display Container */
+.productDisplay {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Left Section */
+  .productDisplay-left {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Image List */
+  .productDisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 12px;
+  }
+  
+  .productDisplay-img-list img {
+    height: 163px;
+  }
+  
+  /* Main Image */
+  .productDisplay-img img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .productDisplay-main {
+    height: 689px;
+    width: 100%; /* Adjusted width for responsiveness */
+    border: 2px solid #007BFF; /* Highlight the main image */
+  }
+  
+  /* Right Section */
+  .productDisplay-right {
+    width: 50%;
+    padding-left: 20px; /* Adjusted padding for consistency */
+  }
+  
+  .productDisplay-right h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Star Ratings */
+  .productDisplay-right-star {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .productDisplay-right-star img {
+    width: 20px;
+    margin-right: 5px;
+  }
+  
+  .productDisplay-right-star p {
+    margin-left: 10px;
+    color: #777;
+  }
+  
+  /* Prices Section */
+  .productDisplay-right-prices {
+    margin-bottom: 15px;
+  }
+  
+  .productDisplay-right-price-old {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 10px;
+  }
+  
+  .productDisplay-right-price-new {
+    color: #007BFF;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Description Section */
+  .productDisplay-right-description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Size Selection Section */
+  .productDisplay-right-size {
+    margin-bottom: 15px;
+  }
+  
+  .productDisplay-right-size h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .productDisplay-right-sizes-list {
+    display: flex;
+  }
+  
+  .productDisplay-right-sizes-list div {
+    width: 30px;
+    height: 30px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Add to Cart Button */
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Category and Tags Section */
+  .productDisplay-right-category,
+  .productDisplay-right-tags {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .productDisplay-right-category span,
+  .productDisplay-right-tags span {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+  }
+  

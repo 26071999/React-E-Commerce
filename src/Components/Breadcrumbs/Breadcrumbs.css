@@ -1,0 +1,40 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333; /* Set your desired text color */
+  }
+  
+  .breadcrumb img {
+    margin: 0 8px; /* Adjust the spacing between text and arrows */
+  }
+  
+  .breadcrumb a {
+    color: #007BFF; /* Set a color for links */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .breadcrumb a:hover {
+    color: #0056b3; /* Change color on hover */
+  }
+  
+  /* Style the last item differently, assuming it's not a link */
+  .breadcrumb span:last-child {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Add a separator between items */
+  .breadcrumb::after {
+    margin: 0 8px;
+    color: #777;
+  }
+  
+  /* Optional: Add some styles for better readability on smaller screens */
+  @media screen and (max-width: 600px) {
+    .breadcrumb {
+      font-size: 12px;
+    }
+  }
+  

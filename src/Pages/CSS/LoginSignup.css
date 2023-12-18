@@ -1,0 +1,82 @@
+/* Your existing styles */
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  .login-signup-container {
+    text-align: center;
+    background-color: #ffffff; /* White background color */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+  
+  .login-signup h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark text color */
+  }
+  
+  .login-signup-fields {
+    margin-bottom: 20px;
+  }
+  
+  .login-signup-fields input {
+    width: 60%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .login-signup-fields input::placeholder {
+    color: #6c757d; /* Placeholder text color */
+  }
+  
+   button {
+    width: 30%;
+    padding: 12px;
+    background-color: #007bff; /* Primary color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+   button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+  }
+  
+  .login-signup-login {
+    margin-top: 20px;
+    color: #6c757d; /* Lighter text color */
+  }
+  
+  .login-signup-login span {
+    color: #007bff; /* Link color */
+    cursor: pointer;
+  }
+  
+  .login-signup-agree {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #6c757d; /* Lighter text color */
+  }
+  
+  .login-signup-agree input {
+    margin-right: 10px;
+  }
+  
+  /* Your existing styles */
+  

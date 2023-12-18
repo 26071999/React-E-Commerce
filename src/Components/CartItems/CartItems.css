@@ -1,0 +1,149 @@
+/* Cart Items Container */
+.cartItems {
+    margin: 20px;
+  }
+  
+  /* Cart Items Main Header */
+  .cartItems-main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr; /* Adjust column widths as needed */
+    gap: 10px;
+    font-weight: bold;
+  }
+  
+  /* Cart Items Row Style */
+  .cartItems-format {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr; /* Adjust column widths as needed */
+    gap: 10px;
+    align-items: center;
+  }
+  
+  /* Cart Items Product Icon Style */
+  .cartItems-product-icon {
+    width: 50px; /* Adjust the width based on your design */
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  /* Quantity Button Style */
+  .cartItems-quantity {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Minus Icon Style */
+  .cartItems-format img {
+    width: 40px; /* Adjust the width based on your design */
+    cursor: pointer;
+  }
+  
+  /* Horizontal Line Style */
+  .cartItems hr {
+    border: 0.5px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Items Down Container */
+  .cartItems-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Cart Items Total Container */
+  .cartItems-total {
+    width: 60%; /* Adjust the width based on your design */
+  }
+  
+  /* Cart Items Total Header Style */
+  .cartItems-total h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Items Total Item Style */
+  .cartItems-total-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Items Total Item Subtotal Style */
+  .cartItems-total-item p {
+    font-size: 16px;
+  }
+  
+  /* Cart Items Total Item Total Style */
+  .cartItems-total-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Proceed to Checkout Button Style */
+  .cartItems-total button {
+    display: flex;
+    justify-content: center;
+    background-color: #ee6217;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    margin-left: 300px;
+  }
+  
+  .cartItems-total button:hover {
+    background-color: #f04c1b;
+  }
+  
+  /* Cart Items Promocode Container */
+  .cartItems-promocode {
+    width: 35%; /* Adjust the width based on your design */
+  }
+  
+  /* Cart Items Promocode Header Style */
+  .cartItems-promocode p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Cart Items Promobox Style */
+  .cartItems-promobox {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Cart Items Promocode Input Style */
+  .cartItems-promobox input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Cart Items Promocode Submit Button Style */
+  .cartItems-promobox button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cartItems-promobox button:hover {
+    background-color: #0056b3;
+  }
+  

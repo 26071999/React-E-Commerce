@@ -1,0 +1,118 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f9f6f6;
+  color: black;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-logo p {
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+}
+.navbar-logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav-menu li {
+  margin: 0 15px;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  font-size: 18px;
+  gap: 3px;
+  
+}
+
+.nav-menu li:hover {
+  color: #ca7814; /* Change the color on hover */
+}
+
+/* Keyframes for the fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animation for the menu items */
+.nav-menu li {
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-login-cart button {
+  width: 157px;
+  height: 58px;
+  padding: 10px 15px;
+  background-color: #007bff;;
+  color: white;
+  border: none;
+  border-radius: 75px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-login-cart button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+
+
+
+.nav-cart-count {
+  height: 22px;
+  width: 22px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -25px;
+  border-radius: 11px;
+  color: white;
+  background: rgb(224, 20, 20);
+
+}

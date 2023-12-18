@@ -1,0 +1,72 @@
+/* Popular.css */
+
+.relatedProducts {
+    padding: 70px;
+  }
+  
+  
+  .relatedProducts h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .relatedProducts hr {
+    width: 200px;
+    height: 5px;
+    background-color: #252525;
+    margin: 10px auto;
+  }
+  
+  .products-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .products-list .item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .products-list .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .products-list .item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .products-list .item p {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0 10px;
+  }
+  
+  .products-list .item-prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px;
+  }
+  
+  .products-list .item-price-new {
+    font-size: 18px;
+    color: #ff8c00;
+    font-weight: bold;
+  }
+  
+  .products-list .item-price-old {
+    font-size: 14px;
+    color: #777;
+    text-decoration: line-through;
+  }
+  
